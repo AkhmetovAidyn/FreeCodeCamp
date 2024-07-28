@@ -14,4 +14,4 @@ console.log(rows[0]);
 // You should not see anything change in your console.
 
 rows[2] = 10;
-rows[rows.length - 1];
+rows[rows.length - 1] = 10;
