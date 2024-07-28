@@ -6,3 +6,4 @@ let rows = ["Naomi", "Quincy", "CamperChan"];
 // For now, remove your first console log and your rows[rows.length - 1] assignment.
 // Leave the second rows log statement for later.
 
+console.log(rows);
