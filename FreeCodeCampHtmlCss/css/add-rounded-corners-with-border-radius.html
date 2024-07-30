@@ -1,13 +1,8 @@
-<!--CSS has a property called width that controls an element's width. Just like with fonts, we'll use px (pixels) to specify the image's width.-->
+<!--Add Rounded Corners with border-radius-->
+<!--Your cat photo currently has sharp corners. We can round out those corners with a CSS property called border-radius.-->
+<!--You can specify a border-radius with pixels. Give your cat photo a border-radius of 10px.-->
+<!--Note: This challenge allows for multiple possible solutions. For example, you may add border-radius to either the .thick-green-border class or the .smaller-image class.-->
 
-<!--For example, if we wanted to create a CSS class called larger-image that gave HTML elements a width of 500 pixels, we'd use:-->
-
-<!--<style>-->
-<!--    .larger-image {-->
-<!--        width: 500px;-->
-<!--    }-->
-<!--</style>-->
-<!--Create a class called smaller-image and use it to resize the image so that it's only 100 pixels wide.-->
 
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
@@ -23,6 +18,14 @@
         font-size: 16px;
         font-family: monospace;
     }
+
+    .thick-green-border {
+        border-color: green;
+        border-width: 10px;
+        border-style: solid;
+        border-radius: 10px
+    }
+
     .smaller-image {
         width: 100px;
     }
@@ -32,7 +35,7 @@
 <main>
     <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
 
-    <a href="#"><img class="smaller-image" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+    <a href="#"><img class="smaller-image thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
 
     <div>
         <p>Things cats love:</p>
