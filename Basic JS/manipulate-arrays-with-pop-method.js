@@ -23,3 +23,4 @@ const removedFromMyArray = myArray.pop();
 
 console.log(myArray);
 console.log(removedFromMyArray);
+
