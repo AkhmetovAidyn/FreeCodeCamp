@@ -18,3 +18,4 @@ function functionWithArgs(a, b) {
 }
 
 functionWithArgs(5, 5);
+
