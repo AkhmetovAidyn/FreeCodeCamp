@@ -52,3 +52,8 @@ textarea {
     border: 1px solid #0a0a23;
     color: #ffffff;
 }
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+}
